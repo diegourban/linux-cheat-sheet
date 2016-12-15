@@ -1,6 +1,6 @@
 # linux-cli
 
-# echo
+## echo
 ### Name
 echo - display a line of text.
 ### Description
@@ -10,7 +10,7 @@ Echo the String(s) to standard output.
 * echo "Bem vindo"
 * echo "Bem vindo" > bemvindo.txt
 
-# cat
+## cat
 ### Name
 cat - concatenate files and print on the standard output.
 ### Description
@@ -19,13 +19,13 @@ With no file, or the file is -, read standard input.
 ### Example
 * cat bemvindo.txt
 
-# clear
+## clear
 ### Name
 clear- clear the terminal screen.
 ### Description
 Clears your screen if it is possible.
 
-# ls
+## ls
 ### Name 
 ls - list directory contents.
 ### Description
@@ -36,7 +36,7 @@ List information about the files.
 ### Example
 * `ls -la`
 
-# man
+## man
 ### Name
 man - an interface to the on-line reference manuals.
 ### Description
@@ -45,13 +45,13 @@ man is the system's manual paper.
 * `man pwd`
 * `man ls`
 
-# pwd
+## pwd
 ### Name
 pwd - print name of current/working directory.
 ### Description
 Print the full filename of current working directory.
 
-# whoami
+## whoami
 ### Name
 whoami - print effective userid.
 ### Description
