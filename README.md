@@ -1,60 +1,60 @@
 # linux-cli
 
-### echo
-###### Name
+## echo
+##### Name
 echo - display a line of text.
-###### Description
+##### Description
 Echo the String(s) to standard output.
-###### Example
+##### Example
 * echo Bem vindo
 * echo "Bem vindo"
 * echo "Bem vindo" > bemvindo.txt
 
-### cat
-###### Name
+## cat
+##### Name
 cat - concatenate files and print on the standard output.
-###### Description
+##### Description
 Concatenate file(s) to standard output.
 With no file, or the file is -, read standard input.
-### Example
+##### Example
 * cat bemvindo.txt
 
-### clear
-###### Name
+## clear
+##### Name
 clear- clear the terminal screen.
-###### Description
+##### Description
 Clears your screen if it is possible.
 
-### ls
-###### Name 
+## ls
+##### Name 
 ls - list directory contents.
-###### Description
+##### Description
 List information about the files.
-###### Options
+##### Options
 * `-l` list contents with extra detail
 * `-a` do not ignore entries starting with .
-###### Example
+##### Example
 * `ls -la`
 
-### man
+## man
 ###### Name
 man - an interface to the on-line reference manuals.
-###### Description
+##### Description
 man is the system's manual paper.
-###### Example
+##### Example
 * `man pwd`
 * `man ls`
 
-### pwd
-###### Name
+## pwd
+##### Name
 pwd - print name of current/working directory.
-###### Description
+##### Description
 Print the full filename of current working directory.
 
-### whoami
-###### Name
+## whoami
+##### Name
 whoami - print effective userid.
-###### Description
+##### Description
 Print the user name associated with the current effective user ID.
 
 ----
