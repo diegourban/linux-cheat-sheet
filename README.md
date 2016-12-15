@@ -9,9 +9,9 @@ echo - display a line of text.
 Echo the String(s) to standard output.
 
 #### Example
-* echo Bem vindo
-* echo "Bem vindo"
-* echo "Bem vindo" > bemvindo.txt
+* `echo Bem vindo`
+* `echo "Bem vindo"`
+* `echo "Bem vindo" > filename.txt` redirects the output to the file
 
 ## cat
 
@@ -23,7 +23,7 @@ Concatenate file(s) to standard output.
 With no file, or the file is -, read standard input.
 
 #### Example
-* cat bemvindo.txt
+* `cat filename.txt`
 
 ## clear
 
