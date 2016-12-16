@@ -22,7 +22,8 @@ Unzip will list, test and extract files from a Zip archive.
 
 #### Options
 * `-q` - quit mode, without log
+* `-l` - list archive files
 
 #### Examples
 * `unzip file.zip`
-* `unzip -q file.zip`
+* `unzip -l file.zip`
