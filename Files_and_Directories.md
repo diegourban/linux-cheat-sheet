@@ -2,6 +2,7 @@
 
 * [ls](#ls) - list directory contents
 * [pwd](#pwd) - print name of current/working directory
+* [cat](#cat) - concatenate files and print on the standard output
 
 ## ls
 
@@ -25,3 +26,14 @@ Print the full filename of current working directory.
 #### Options
 
 #### Examples
+
+## cat
+
+#### Description
+Concatenate file(s) to standard output.
+With no file, or the file is -, read standard input.
+
+#### Options
+
+#### Examples
+* `cat filename.txt`
