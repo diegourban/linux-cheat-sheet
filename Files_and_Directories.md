@@ -2,10 +2,10 @@
 
 * [ls](#ls)
 
-* pwd
+* [pwd](#pwd)
 
 
-### (#ls)
+### ls
 
 ### pwd
 
