@@ -33,21 +33,6 @@ clear- clear the terminal screen.
 #### Description
 Clears your screen if it is possible.
 
-## ls
-
-#### Name 
-ls - list directory contents.
-
-#### Description
-List information about the files.
-
-#### Options
-* `-l` list contents with extra detail
-* `-a` do not ignore entries starting with .
-
-#### Example
-* `ls -la`
-
 ## man
 
 ##### Name
@@ -59,14 +44,6 @@ man is the system's manual paper.
 #### Example
 * `man pwd`
 * `man ls`
-
-## pwd
-
-#### Name
-pwd - print name of current/working directory.
-
-#### Description
-Print the full filename of current working directory.
 
 ## whoami
 
