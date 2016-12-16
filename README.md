@@ -2,6 +2,8 @@
 
 * [Files and Directories](/Files_and_Directories.md)
   * ls, pwd, cat, cd, mkdir, rmdir, rm
+* [Compression and Archives](/Compression_and_Archives.md)
+  * zip
 
 ## echo
 
