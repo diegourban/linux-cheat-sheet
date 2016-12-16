@@ -10,4 +10,4 @@ Zip is a compression and file packaging utility.
 #### Options
 
 #### Examples
-* `zip output.zip folderToZip/`
+* `zip -r output.zip folderToZip/`
