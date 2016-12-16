@@ -5,7 +5,7 @@
 * [pwd](#pwd)
 
 
-### ls
+## ls
 
 #### Name 
 ls - list directory contents.
@@ -17,6 +17,9 @@ List information about the files.
 * `-l` list contents with extra detail
 * `-a` do not ignore entries starting with .
 
-### pwd
+#### Examples
+* `ls` - list content from current directory
+* `ls /home` - list content from /home directory
+* `ls -la`
 
-
+## pwd
