@@ -21,3 +21,13 @@ List information about the files.
 * `ls -la`
 
 ## pwd
+
+#### Name
+pwd - print name of current/working directory.
+
+#### Description
+Print the full filename of current working directory.
+
+#### Options
+
+#### Examples
