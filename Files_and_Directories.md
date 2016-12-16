@@ -1,12 +1,9 @@
 # Files and Directories
 
-* [ls](#ls)
-* [pwd](#pwd)
+* [ls](#ls) - list directory contents
+* [pwd](#pwd) - print name of current/working directory
 
 ## ls
-
-#### Name 
-ls - list directory contents.
 
 #### Description
 List information about the files.
@@ -21,9 +18,6 @@ List information about the files.
 * `ls -la`
 
 ## pwd
-
-#### Name
-pwd - print name of current/working directory.
 
 #### Description
 Print the full filename of current working directory.
