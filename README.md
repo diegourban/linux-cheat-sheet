@@ -43,14 +43,3 @@ whoami - print effective userid.
 
 #### Description
 Print the user name associated with the current effective user ID.
-
-----
-todo 
-
-files and directories starting with .(dot) are hidden
-Example:
-diego@diego-Inspiron-5423:~$ ls -l
-drwxrwxr-x 4 diego diego 4096 Dez 15 17:15 apps
--rw-r--r-- 1 diego diego 8980 Dez 12 23:21 examples.desktop
-drwxrwxr-x 5 diego diego 4096 Dez 15 20:43 git
-When the informations starts with d, it means it is a directory
