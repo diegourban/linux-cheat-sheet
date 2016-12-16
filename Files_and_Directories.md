@@ -7,6 +7,8 @@
 * [mkdir](#mkdir) - make directories
 * [rmdir](#rmdir) - remove empty directories
 * [rm](#rm) - remove files or directories
+* [cp](#cp) - copy files and directories
+* [mv](#mv) - move (rename) files
 
 ## ls
 
@@ -21,6 +23,8 @@ List information about the files.
 * `ls` - list content from current directory
 * `ls /home` - list content from /home directory
 * `ls -la`
+* `ls file1.txt file2.txt`
+* `ls *.txt`
 
 ## pwd
 
@@ -87,3 +91,27 @@ Removes each specifies file. By default it does not remove directories.
 #### Examples
 * `rm file.txt`
 * `rm -r workspace`
+
+## cp
+
+#### Description
+Copy source to dest, or multiple sources to directory.
+
+#### Options
+* `-r` - copy directories recursively
+
+#### Examples
+* `cp file.txt dest.txt`
+* `cp file.txt folder/`
+* `cp -r sourceFolder/ destFolder/`
+
+## mv
+
+#### Description
+Rename source to dest, or rename sources to directory.
+
+#### Options
+
+#### Examples
+* `mv old.txt new.txt`
+* `mv file.txt folder/`
