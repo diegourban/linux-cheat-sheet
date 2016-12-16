@@ -16,18 +16,6 @@ Echo the String(s) to standard output.
 * `echo "Bem vindo"`
 * `echo "Bem vindo" > filename.txt` redirects the output to the file
 
-## cat
-
-#### Name
-cat - concatenate files and print on the standard output.
-
-#### Description
-Concatenate file(s) to standard output.
-With no file, or the file is -, read standard input.
-
-#### Example
-* `cat filename.txt`
-
 ## clear
 
 #### Name
