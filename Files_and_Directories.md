@@ -1,6 +1,6 @@
 # Files and Directories
 
-* ls
+* [ls](#ls)
 
 * pwd
 
@@ -9,4 +9,4 @@
 
 ### pwd
 
-[ls](#ls)
+
