@@ -1,4 +1,4 @@
-# linux-cli
+# Linux Commands Cheat Sheet
 
 ## echo
 
