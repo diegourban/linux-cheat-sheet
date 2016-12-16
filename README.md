@@ -1,7 +1,7 @@
 # Linux Commands Cheat Sheet
 
 * [Files and Directories](/Files_and_Directories.md)
-  * ls, pwd, cat
+  * ls, pwd, cat, cd, mkdir
 
 ## echo
 
@@ -14,7 +14,8 @@ Echo the String(s) to standard output.
 #### Example
 * `echo Bem vindo`
 * `echo "Bem vindo"`
-* `echo "Bem vindo" > filename.txt` redirects the output to the file
+* `echo "Bem vindo" > filename.txt` redirects the output to the file, and overwrites it
+* `echo "Bem vindo" >> filename.txt` redirects the output to the file, and append the text to it
 
 ## clear
 

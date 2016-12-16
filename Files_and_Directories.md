@@ -3,6 +3,10 @@
 * [ls](#ls) - list directory contents
 * [pwd](#pwd) - print name of current/working directory
 * [cat](#cat) - concatenate files and print on the standard output
+* [cd](#cd) - change directory
+* [mkdir](#mkdir) - make directories
+* [rmdir](#rmdir) - remove empty directories
+* [rm](#rm) - remove files or directories
 
 ## ls
 
@@ -34,6 +38,52 @@ Concatenate file(s) to standard output.
 With no file, or the file is -, read standard input.
 
 #### Options
+* `*` - replaces any caracter of the file name
 
 #### Examples
 * `cat filename.txt`
+* `cat *.txt` - read all files ending with .txt
+
+## cd
+
+#### Description
+Change the directory
+
+#### Options
+
+#### Examples
+* `cd ..` - returns to the parent folder
+* `cd foldername` - access the folder
+
+## mkdir
+
+#### Description
+Create the directory(ies), if they do not already exist.
+
+#### Options
+
+#### Examples
+* `mkdir workspace`
+
+## rmdir
+
+#### Description
+Remove the directory(ies), it they are empty.
+
+#### Options
+
+#### Examples
+* `rmdir workspace`
+
+## rm
+
+#### Description
+Removes each specifies file. By default it does not remove directories.
+
+#### Options
+* `-r` - remove directories and their contents recursively
+* `-f` - ignore nonexistent files and arguments
+
+#### Examples
+* `rm file.txt`
+* `rm -r workspace`
