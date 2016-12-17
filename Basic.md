@@ -3,6 +3,9 @@
 * [echo](#echo) - display a line of text
 * [clear](#clear) - clear the terminal screen
 * [man](#man) - an interface to the on-line reference manuals
+* [passwd](#passwd) - change user password
+* [su](#su) - change user id or become super user
+* [sudo](#sudo) - execute a command as another user
 
 ## echo
 
@@ -39,3 +42,36 @@ Man is the system's manual paper.
 * `man clear`
 * `man man`
 * `man mkdir`
+
+## su
+
+#### Description
+Is used to become another user durgin a login session.
+
+#### Options
+
+#### Examples
+* `su foo`
+* `su bar`
+* `su root`
+
+## sudo
+
+#### Description
+Allows a permitted user to execute a command as the superuser or another user, as specified by the secutiry policy.
+
+#### Options
+
+#### Examples
+* `sudo mv ~/sample.sh /usr/bin`
+
+## passwd
+
+#### Description
+Changes passwords for user accounts.
+
+#### Options
+
+#### Examples
+* `passwd` - changes the user password
+* `sudo passwd` - changes the root password
