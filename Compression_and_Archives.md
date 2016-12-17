@@ -48,4 +48,4 @@ Tar stores and extracts files from a tape of disk archive.
 * `tar -xz < archiveToExtract.tar.gz` - extract the zipped content incoming from the file
 * `tar -czf output.tar.gz folderToArchive/`- create a compression and zip to the file the content from the folder
 * `tar -xzf output.tar.gz` - extract the zipped content from the file
-* `tar -vxzf output.tar.gz` - extract the zipped content from the file loggin the list of files
+* `tar -vxzf output.tar.gz` - extract the zipped content from the file logging the list of files
