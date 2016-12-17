@@ -166,3 +166,6 @@ Changes the file mode bits of each given file according to mode.
 * `chmod +x sample.txt` - give execution permission to sample.txt
 * `chmod -x sample.txt` - remove execution permission to sample.txt
 * `chmod +rwx sample.txt` - give read, write and execution permission to sample.txt
+* `chmod u+rwx sample.txt` - give read, write and execution permission only to user to sample.txt
+* `chmod g+rwx sample.txt` - give read, write and execution permission only to group to sample.txt
+* `chmod o+rwx sample.txt` - give read, write and execution permission only to others to sample.txt
