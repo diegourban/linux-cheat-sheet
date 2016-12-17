@@ -5,7 +5,7 @@
 * [System](/System.md)
   * whoami
 * [Files and Directories](/Files_and_Directories.md)
-  * ls, pwd, cat, cd, mkdir, rmdir, rm, touch, head, tail, chmod
+  * ls, pwd, cat, cd, mkdir, rmdir, rm, touch, head, tail, chmod, locate
 * [Compression and Archives](/Compression_and_Archives.md)
   * zip, unzip, tar
 * [Process Management](/Process_Management.md)
