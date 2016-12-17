@@ -108,6 +108,8 @@ Send a job from t he jobs list to foreground
 
 #### Description
 Runs a command
+Ctrl + z, to stop the program
+Ctrl + c, to close the program
 
 #### Options
 
