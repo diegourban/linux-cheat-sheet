@@ -44,7 +44,7 @@ Tar stores and extracts files from a tape of disk archive.
 * `-v` - verbosely list files processed
 
 #### Examples
-* `tar -cz folderToArchive > output.tar.gz` - create a compression and zip from the folder and redirects the output to the file
+* `tar -cz folderToArchive > output.tar.gz` - create a zipped compression from the folder and output it to the file
 * `tar -xz < archiveToExtract.tar.gz` - extract the zipped content incoming from the file
 * `tar -czf output.tar.gz folderToArchive/`- create a compression and zip to the file the content from the folder
 * `tar -xzf output.tar.gz` - extract the zipped content from the file
