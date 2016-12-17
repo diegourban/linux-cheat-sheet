@@ -1,7 +1,7 @@
 # Linux Commands Cheat Sheet
 
 * [Basic](/Basic.md)
-  * echo, clear, man
+  * echo, clear, man, su, sudo, passwd
 * [System](/System.md)
   * whoami
 * [Files and Directories](/Files_and_Directories.md)
