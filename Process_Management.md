@@ -22,9 +22,9 @@ Displays information about a selection of the active processes.
 #### Description
 The default signal for kill is TERM. (terminate)
 
-#### Options`
-* `-9` - kill the process without terminating it
+#### Options
+* `-9` - kill the process without sending a terminate signal
 
 #### Examples
-* `kill 123` - kills the process with id 123
-* `kill -9 123` - kills the process with id 123 without terminating it
+* `kill 123` - kill the process with id 123
+* `kill -9 123` - kill the process with id 123 without sending a terminate signal
