@@ -12,6 +12,7 @@
 * [touch](#touch) - change file timestamps
 * [head](#head) - output the first part of files
 * [tail](#tail) - output the last part of files
+* [chmod](#chmod) - change file mode bits
 
 ## ls
 
@@ -128,7 +129,7 @@ Update the access and modification times of each file to the current time.
 #### Options
 
 #### Examples
-* `touch file.txt`
+* `touch sample.txt`
 
 ## head
 
@@ -139,8 +140,8 @@ Print the first 10 lines of each file to standard output.
 * `-n` - print the first n lines
 
 #### Examples
-* `head file.txt` - print the first 10 lines
-* `head -n 3 file.txt` - print the first 3 lines
+* `head sample.txt` - print the first 10 lines
+* `head -n 3 sample.txt` - print the first 3 lines
 
 ## tail
 
@@ -151,5 +152,18 @@ Print the last 10 lines of each file to standard output.
 * `-n` - print the last n lines
 
 #### Examples
-* `tail file.txt` - print the last 10 lines
-* `tail -n 3 file.txt` - print the last 3 lines
+* `tail sample.txt` - print the last 10 lines
+* `tail -n 3 sample.txt` - print the last 3 lines
+
+
+## chmod
+
+#### Description
+Changes the file mode bits of each given file according to mode.
+
+#### Options
+
+#### Examples
+* `chmod +x sample.txt` - give execution permission to sample.txt
+* `chmod -x sample.txt` - remove execution permission to sample.txt
+* `chmod +rwx sample.txt` - give read, write and execution permission to sample.txt
