@@ -38,8 +38,8 @@ Tar stores and extracts files from a tape of disk archive.
 
 #### Options
 * `-c` - create a new archive
-* `-z` - zip
-* `-x` - extract
+* `-z` - zip it
+* `-x` - extract an archive
 * `-f` - use archive file
 * `-v` - verbosely list files processed
 
