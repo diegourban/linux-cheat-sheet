@@ -9,6 +9,7 @@
 * [rm](#rm) - remove files or directories
 * [cp](#cp) - copy files and directories
 * [mv](#mv) - move (rename) files
+* [touch](#touch) - change file timestamps
 
 ## ls
 
@@ -115,3 +116,13 @@ Rename source to dest, or rename sources to directory.
 #### Examples
 * `mv old.txt new.txt`
 * `mv file.txt folder/`
+
+## touch
+
+#### Description
+Update the access and modification times of each file to the current time.
+
+#### Options
+
+#### Examples
+* `touch file.txt`
