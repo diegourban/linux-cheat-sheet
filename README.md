@@ -1,9 +1,9 @@
 # Linux Commands Cheat Sheet
 
 * [Files and Directories](/Files_and_Directories.md)
-  * ls, pwd, cat, cd, mkdir, rmdir, rm
+  * ls, pwd, cat, cd, mkdir, rmdir, rm, touch
 * [Compression and Archives](/Compression_and_Archives.md)
-  * zip, unzip
+  * zip, unzip, tar
 
 ## echo
 
