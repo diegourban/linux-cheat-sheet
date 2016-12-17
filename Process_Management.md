@@ -8,7 +8,7 @@
 * [jobs](#jobs) - list the jobs
 * [bg](#bg) - send a job to the background
 * [fg](#fg) - send a jog to the foreground
-* [cmd](#cmd) - runs a command
+* [[cmd]](#cmd) - runs a command
 
 ## ps
 
@@ -104,7 +104,7 @@ Send a job from t he jobs list to foreground
 #### Examples
 * `fg 1`
 
-## cmd
+## [cmd]
 
 #### Description
 Runs a command
