@@ -10,3 +10,5 @@
   * zip, unzip, tar
 * [Process Management](/Process_Management.md)
   * ps, kill
+* [Search](/Search.md)
+  * grep
