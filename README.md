@@ -3,7 +3,7 @@
 * [System](/System.md)
   * whoami
 * [Files and Directories](/Files_and_Directories.md)
-  * ls, pwd, cat, cd, mkdir, rmdir, rm, touch
+  * ls, pwd, cat, cd, mkdir, rmdir, rm, touch, head, tail
 * [Compression and Archives](/Compression_and_Archives.md)
   * zip, unzip, tar
 
