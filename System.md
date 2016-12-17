@@ -1,9 +1,8 @@
 # System
 
-## whoami
+* [whoami](#whoami) - print effective userid
 
-#### Name
-whoami - print effective userid.
+## whoami
 
 #### Description
 Print the user name associated with the current effective user ID.
