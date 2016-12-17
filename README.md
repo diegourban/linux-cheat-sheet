@@ -9,6 +9,6 @@
 * [Compression and Archives](/Compression_and_Archives.md)
   * zip, unzip, tar
 * [Process Management](/Process_Management.md)
-  * ps, kill
+  * ps, kill, top, killall
 * [Search](/Search.md)
   * grep
