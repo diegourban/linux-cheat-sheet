@@ -2,6 +2,8 @@
 
 * [ps](#ps) - report a snapshot of the current processes
 * [kill](#kill) - send a signal to a process
+* [top](#top) - display linux processes
+* [killall](#killall) - killall processes by name
 
 ## ps
 
@@ -29,3 +31,27 @@ The default signal for kill is TERM. (terminate)
 #### Examples
 * `kill 123` - kill the process with id 123
 * `kill -9 123` - kill the process with id 123 without sending a terminate signal
+
+## top
+
+#### Description
+The top program provides a dynamic real-time view of a running system
+
+#### Options
+* `-u` - display only processes with a user id or name matching
+
+#### Examples
+* `top`
+* `top -a jeremias` - only display jeremias's processes
+
+## killall
+
+#### Description
+Killall sends a signal to all processes running any of the specific commands.
+
+#### Options
+* `-9` - kill the process without sending a terminate signal
+
+#### Examples
+* `killall firefox` - kill all the processes firefox processes
+* `kill -9 top` - kill all the process with name top without sending a terminate signal
