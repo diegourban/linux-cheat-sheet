@@ -6,6 +6,7 @@
 * [su](#su) - change user id or become super user
 * [sudo](#sudo) - execute a command as another user
 * [passwd](#passwd) - change user password
+* [adduser](#adduser) - add a user to the system
 
 ## echo
 
@@ -75,3 +76,13 @@ Changes passwords for user accounts.
 #### Examples
 * `passwd` - changes the user password
 * `sudo passwd` - changes the root password
+
+## adduser
+
+#### Description
+Add users to the system.
+
+#### Options
+
+#### Examples
+* `adduser jeremias` - add user with id 'jeremias'
