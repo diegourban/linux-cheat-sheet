@@ -39,10 +39,12 @@ The top program provides a dynamic real-time view of a running system.
 
 #### Options
 * `-u` - display only processes with a user id or name matching
+* `-p` - monitors only processes with specific process id
 
 #### Examples
 * `top`
 * `top -a jeremias` - only display jeremias's processes
+* `top -p 123` - only display the processe with id 123
 
 ## killall
 
