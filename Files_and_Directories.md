@@ -13,7 +13,6 @@
 * [head](#head) - output the first part of files
 * [tail](#tail) - output the last part of files
 * [chmod](#chmod) - change file mode bits
-* [locate](#locate) - find files by name
 
 ## ls
 
@@ -167,14 +166,3 @@ Changes the file mode bits of each given file according to mode.
 * `chmod +x sample.txt` - give execution permission to sample.txt
 * `chmod -x sample.txt` - remove execution permission to sample.txt
 * `chmod +rwx sample.txt` - give read, write and execution permission to sample.txt
-
-## locate
-
-#### Description
-Reads one or more databases prepared by updatedb and writes file names matching at least one of the pattern(s) to standard output.
-
-#### Options
-
-#### Examples
-* `locate firefox`
-* `localte gedit`
