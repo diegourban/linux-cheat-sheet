@@ -35,7 +35,7 @@ The default signal for kill is TERM. (terminate)
 ## top
 
 #### Description
-The top program provides a dynamic real-time view of a running system
+The top program provides a dynamic real-time view of a running system.
 
 #### Options
 * `-u` - display only processes with a user id or name matching
