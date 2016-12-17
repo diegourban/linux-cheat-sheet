@@ -3,9 +3,9 @@
 * [echo](#echo) - display a line of text
 * [clear](#clear) - clear the terminal screen
 * [man](#man) - an interface to the on-line reference manuals
-* [passwd](#passwd) - change user password
 * [su](#su) - change user id or become super user
 * [sudo](#sudo) - execute a command as another user
+* [passwd](#passwd) - change user password
 
 ## echo
 
