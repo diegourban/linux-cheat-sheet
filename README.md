@@ -1,5 +1,7 @@
 # Linux Commands Cheat Sheet
 
+* [System](/System.md)
+  * whoami
 * [Files and Directories](/Files_and_Directories.md)
   * ls, pwd, cat, cd, mkdir, rmdir, rm, touch
 * [Compression and Archives](/Compression_and_Archives.md)
@@ -38,11 +40,3 @@ man is the system's manual paper.
 #### Example
 * `man pwd`
 * `man ls`
-
-## whoami
-
-#### Name
-whoami - print effective userid.
-
-#### Description
-Print the user name associated with the current effective user ID.
