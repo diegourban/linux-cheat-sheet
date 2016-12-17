@@ -10,10 +10,12 @@ Zip is a compression and file packaging utility.
 
 #### Options
 * `-q` - quit mode, without log
+* `-r` - travel the directory structure recursively
 
 #### Examples
-* `zip -r output.zip folderToZip/`
+* `zip file.zip file.txt`
 * `zip -q file.zip file.txt`
+* `zip -r output.zip folderToZip/`
 
 ## unzip
 
