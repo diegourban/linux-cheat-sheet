@@ -55,5 +55,5 @@ Killall sends a signal to all processes running any of the specific commands.
 * `-9` - kill the process without sending a terminate signal
 
 #### Examples
-* `killall firefox` - kill all the processes firefox processes
+* `killall firefox` - kill all the firefox processes
 * `kill -9 top` - kill all the process with name top without sending a terminate signal
