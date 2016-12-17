@@ -16,7 +16,7 @@ Displays information about a selection of the active processes.
 * `ps`
 * `ps -e`
 * `ps -ef`
-* `ps -ef | grep firefox` - list all processes and send it to grep to filter by firefox and print it
+* `ps -ef | grep firefox` - list all processes, send the list to grep to filter by firefox and print it
 
 ## kill
 
