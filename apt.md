@@ -1,10 +1,11 @@
 # apt commands
 
-* `apt-get update` - update the list of programs
-* `apt-get upgrade` - upgrade the programs
-* `apt-cache search` - search for a program
-* `apt-get install` - install a program
-* `apt-get remove` - remove a program
+* `apt-get update` - update the list of packages
+* `apt-get upgrade` - upgrade the packages
+* `apt-cache search` - search for a package
+* `apt-cache show` - show informations os a package
+* `apt-get install` - install a package
+* `apt-get remove` - remove a package
 * `apt-get check` - look for invalid dependencies
 
 ----
