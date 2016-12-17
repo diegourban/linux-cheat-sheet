@@ -50,6 +50,7 @@ With no file, or the file is -, read standard input.
 #### Examples
 * `cat filename.txt`
 * `cat *.txt` - read all files ending with .txt
+* `cat file.txt | grep foobar` - read file.txt and redirect to grep to filter and print lines containing foobar
 
 ## cd
 
