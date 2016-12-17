@@ -10,6 +10,8 @@
 * [cp](#cp) - copy files and directories
 * [mv](#mv) - move (rename) files
 * [touch](#touch) - change file timestamps
+* [head](#head) - output the first part of files
+* [tail](#tail) - output the last part of files
 
 ## ls
 
@@ -126,3 +128,27 @@ Update the access and modification times of each file to the current time.
 
 #### Examples
 * `touch file.txt`
+
+## head
+
+#### Description
+Print the first 10 lines of each file to standard output.
+
+#### Options
+* `-n` - print the first n lines
+
+#### Examples
+* `head file.txt` - print the first 10 lines
+* `head -n 3 file.txt` - print the first 3 lines
+
+## tail
+
+#### Description
+Print the last 10 lines of each file to standard output.
+
+#### Options
+* `-n` - print the last n lines
+
+#### Examples
+* `tail file.txt` - print the last 10 lines
+* `tail -n 3 file.txt` - print the last 3 lines
