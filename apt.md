@@ -2,11 +2,12 @@
 
 * `apt-get update` - update the list of packages
 * `apt-get upgrade` - upgrade the packages
-* `apt-cache search` - search for a package
+* `apt-cache search [package to search]` - search for a package
 * `apt-cache show` - show informations os a package
-* `apt-get install` - install a package
-* `apt-get remove` - remove a package
+* `apt-get install [package name]` - install a package
+* `apt-get remove [package name]` - remove a package
 * `apt-get check` - look for invalid dependencies
+* `apt-get -f install` - correct dependencies problems
 
 ----
 
