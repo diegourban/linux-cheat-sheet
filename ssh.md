@@ -4,4 +4,5 @@
 * scp work.zip jose@localhost:/home/jose - copy work.zip to the other machine
 * exit
 
-* ssh -L 9991:imgur.com:9990 user@example.com - ssh tunnel
+* `ssh -L 9991:imgur.com:9990 user@example.com` - ssh tunnel
+* `ssh -L 9991:10.10.10.2:9990 root@wstiss.com.br`
