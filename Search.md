@@ -3,7 +3,7 @@
 * [grep](#grep) - print lines matching a pattern
 * [locate](#locate) - find files by name
 * [which](#which) - locate a command
-* [fina](#find) - locate a command
+* [find](#find) - locate a command
 
 ## grep
 
