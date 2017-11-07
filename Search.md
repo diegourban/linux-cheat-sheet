@@ -53,3 +53,7 @@ Searches for files in a directory hierarchy
 * `find / -iname pagamentos.csv` - find files with name equals to pagamentos.csv ignoring case
 * `find / -iname pagamentos*` - - find files with name equals to pagamentos + anything else (regex)
 * `find /compartilhamento/financeiro -iname *pagamento*` - find files in a specific folder
+
+
+If filelist.txt has a single filename per line:
+`find /dir | grep -f <(sed 's@^@/@; s/$/$/; s/\([\.[\*]\|\]\)/\\\1/g' filelist.txt)`
